@@ -1,0 +1,61 @@
+.keys{
+    font-size: 10px;
+    background: url("sounds/imgs.jpg");
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+    
+}
+
+body,html{
+    margin: 0;
+    padding:o;
+    font-family: sans-serif;
+}
+
+.keys{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+.key{
+    border:.4rem solid black;
+    padding: 1rem .5rem;
+    margin:13px;
+    width: 10rem;
+    transition:all .09s ease;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+
+}
+
+
+
+.playing{
+    
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow:0 0 1rem #ffc600;
+}
+
+  
+kbd{
+    display: block;
+    font-size: 4rem;
+}
+
+.sound{
+    font-size: 1rem;
+    color: yellow;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+
