@@ -1,0 +1,43 @@
+.first img:hover{
+    box-shadow:2px 2px 5px purple;
+    color:red;
+    border-radius: 5px;
+    
+}
+
+.container{
+    margin: 120px;
+    text-align: center;
+    border:2px solid blue;
+    padding:20px;
+
+}
+
+.first{
+    margin: auto;
+    border:2px solid brown;
+    width:80%;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+.first img{
+    padding:5px;
+    margin-right: 20px;
+}
+
+.hello{
+    padding-bottom:10px;
+    color:purple;
+
+    
+}
