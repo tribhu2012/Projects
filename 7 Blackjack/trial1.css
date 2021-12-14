@@ -1,0 +1,71 @@
+.container{
+    border:1px solid black;
+    
+    margin-top: 8px;
+    
+    
+    text-align: center;
+
+}
+
+.first-row, .second-row,.third-row{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:10px;
+    justify-content: space-around;
+    border:1px 1px 1px 0px solid black ;
+    border-width: 100%;
+    
+}
+
+
+ 
+
+
+.first-row, .second-row{
+    background: url('https://cwstatic.nyc3.cdn.digitaloceanspaces.com/images/2018/12/Bitcoin-Blackjack-Casino.jpg');
+}
+
+
+
+
+.first-row{
+   
+    height:380px;
+    flex:1;
+    padding:20px;
+}
+
+/* .second-row div{
+    border: 1px solid black;
+}
+
+.second-row button{
+margin:10px;
+} */
+
+
+
+
+.container{
+    background-color: grey;
+}
+
+
+
+.first-row a{
+    margin-top:125px;
+    text-align: center;
+    height:40px;
+    padding:200;
+    
+    
+}
+
+ul{
+    text-align: start;
+}
+
+

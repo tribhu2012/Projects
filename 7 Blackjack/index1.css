@@ -1,0 +1,78 @@
+.container{
+    border:1px solid black;
+    
+    margin-top: 8px;
+    
+    
+    text-align: center;
+
+}
+
+.first-row, .second-row,.third-row{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:10px;
+    justify-content: space-around;
+    border:1px 1px 1px 0px solid black ;
+    border-width: 100%;
+    
+}
+
+
+ 
+
+
+.first-row, .second-row{
+    background: url('https://img.freepik.com/free-vector/poker-table-background-green-color_47243-1067.jpg?size=626&ext=jpg');
+}
+
+
+.row1,.row2{
+    color:white;
+}
+
+
+.first-row div{
+    
+    flex-wrap:wrap;
+    border: 1px solid black;
+    height:350px;
+    flex:1;
+    padding:20px;
+}
+
+/* .second-row div{
+    border: 1px solid black;
+}
+
+.second-row button{
+margin:10px;
+} */
+
+
+table,tr,th,td{
+    border:1px solid black;
+    padding:3px;
+}
+
+
+.container{
+    background-color: grey;
+}
+
+
+
+a{
+    padding:10;
+    text-decoration: none;
+}
+
+
+
+
+.second-row1{
+    border:1px solid black;
+    padding:5px;
+}
