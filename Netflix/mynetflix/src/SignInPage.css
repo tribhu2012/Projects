@@ -1,0 +1,115 @@
+
+.signin{
+    max-width: 300px;
+    padding: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top:30%;
+    background: rgba(0,0,0,.8);
+    left: 0;
+    right: 0;
+}
+
+.signin > form{
+    display: grid;
+    flex-direction: column;
+}
+ 
+.signin > form >input{
+    padding:0px 15px;
+    margin-bottom: 14px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline-width: 0;
+    
+    background-color: rgb(131, 129, 129);
+
+}
+
+.signin > form >input:hover{
+    background-color: white;
+   
+}
+
+.signin > form > input::placeholder{
+    color:black;
+    font-weight: 200;
+}
+
+.signin > form > button{
+
+    margin-top:12px;
+    padding: 12px 20px;
+    margin-bottom: 14px;
+    background-color: #e50914;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.signin > form > button:hover{
+    background-color: rgb(129, 50, 50);
+}
+
+.signin > form > h1{
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.check{
+    display: flex;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.one{
+    margin-right: 130px;
+
+}
+
+.myspan{
+    margin-top:3px;
+}
+
+.new{
+    display: flex;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 3px;;
+}
+
+.a{
+    color: gray;
+    margin-right: 5px;
+}
+
+.learn{
+    font-size: 11px;
+    margin-top: 20px; 
+    text-align: left;
+    color: gray;
+    width: 100%;  
+ 
+}
+
+.learn > span {
+    margin-right: 5px;
+}
+
+.learn > a{
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.b{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.b:hover{
+    color: gray;
+}
